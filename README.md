@@ -1,6 +1,8 @@
 # Django_API
 A simple network advisor api in Python using Django Framework
 
+# Make sure you have installed python in your PC.
+
 # Installation Steps
 1 git clone https://github.com/bossOO7/Django_API.git.
 
