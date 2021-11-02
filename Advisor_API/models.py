@@ -11,7 +11,7 @@ class Advisor(models.Model):
 class User(models.Model):
     User_Id=BigAutoField(primary_key=True)
     Name=models.CharField(max_length=60)
-    Email=models.CharField(max_length=60)
+    Email=models.CharField(max_length=60,unique=True)
     Password=models.CharField(max_length=256)
 
 class Bookings(models.Model):
